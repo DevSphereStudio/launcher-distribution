@@ -2,7 +2,20 @@
   "meta": {
     "rss": "",
     "discord": "",
-    "description": "My Minecraft Launcher"
+    "description": "AVCD Launcher"
   },
-  "servers": []
+  "servers": [
+    {
+      "id": "main",
+      "name": "Main Server",
+      "description": "Test server",
+      "icon": "",
+      "version": "1.20.1",
+      "address": "localhost",
+      "minecraftVersion": "1.20.1",
+      "loader": {
+        "type": "vanilla"
+      }
+    }
+  ]
 }
